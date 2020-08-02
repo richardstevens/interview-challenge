@@ -1,0 +1,19 @@
+{
+  "all": true,
+  "reporter": [
+    "html",
+    "text",
+    "json-summary"
+  ],
+  "statements": 31,
+  "lines": 30,
+  "branches": 24,
+  "functions": 24,
+  "exclude": [
+    "test/**/*.js",
+    "src/index.js",
+    "coverage",
+    ".nyc_output",
+    "webpack.config.js"
+  ]
+}
